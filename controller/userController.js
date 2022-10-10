@@ -78,6 +78,9 @@ exports.subscribe = async(req,res) => {
 }
 
 
+exports.test = async(req,res) => {
+    res.json({statusCode:200,statusMsg:"deploy successfully"})
+}
 
 
  // const msg = {
